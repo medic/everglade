@@ -1,0 +1,27 @@
+{
+  "name": "everglade",
+  "description": "A naïve HL7 scrubber which attempts to remove personal information from a file containing messages.",
+  "keywords": ["hl7", "identity", "utility"],
+  "author": {
+    "name": "Rowan Crawford",
+    "email": "wombleton@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wombleton/everglade"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "coffee-script": "latest",
+    "Faker": "latest",
+    "L7": "latest",
+    "underscore": "latest",
+    "underscore.string": "latest"
+  },
+  "bin": {
+    "everglade": "./bin/everglade"
+  },
+  "bugs": {
+    "name": "https://github.com/wombleton/everglade/issues"
+  }
+}
